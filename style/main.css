@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    padding: 20px;
+    height: 100px;
+    background-color: black;
+}
+header ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+    display;
+}
+header .logo a{
+    background-image: url("../images/logo.png");
+    display: inline-block;
+    height: 10px;
+    width: 100px;
+}
+ul li{
+    list-style: none;
+}
+div{
+    margin-bottom: 100px;
+    text-align: center;
+}
