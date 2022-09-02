@@ -4,21 +4,24 @@ body{
 }
 header{
     padding: 20px;
-    height: 100px;
+    height: 20px;
     background-color: black;
 }
-header ul li a{
-    color:white;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: 40px;
-    display;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
 }
-header .logo a{
-    background-image: url("../images/logo.png");
-    display: inline-block;
-    height: 10px;
-    width: 100px;
+header ul li{
+    margin-left: 50px;
+}
+ .logo a{
+    background-image: url("../images/logo.png") no-repeat;
+    width: 10px; 
+    height: 10px; 
+    display: block; 
+    text-indent: -9999px;
 }
 ul li{
     list-style: none;
