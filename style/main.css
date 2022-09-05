@@ -14,21 +14,22 @@ ul {
     display: inline-flex;
 }
 header ul li{
-    margin-left: 50px;
+
 }
  .logo a{
-    background-image: url("../images/logo.png") no-repeat;
-    width: 10px; 
-    height: 10px; 
+    background-color: #cccccc;
     display: block; 
     text-indent: -9999px;
     float: left; 
     width: 300px; 
-    border: 3px solid #73AD21; 
-    padding: 10px; 
+    height: 10px;
+    padding: 10px;
+    margin-left: 50;
 }
-ul li{
+ul li a{
     list-style: none;
+    margin-left: 50px;
+    padding: 0;
 }
 div{
     margin-bottom: 100px;
