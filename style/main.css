@@ -41,3 +41,10 @@ footer ul li{
     color: white;
     display: inline-block;
 }
+body{
+    background-color: #98ff98;
+}
+header section div{
+    margin-bottom: 20px;
+    background-color: white;
+}
