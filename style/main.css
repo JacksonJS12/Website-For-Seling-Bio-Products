@@ -1,19 +1,25 @@
 body{
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #98ff98;
 }
 header{
     padding: 20px;
     height: 20px;
     background-color: black;
 }
-header ul {
+header ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-flex;
-}
-
+    display: inline-flex;   
+}  
+header ul li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    color: white    ;
+} 
  .logo a img{
     display: block; 
     text-indent: -9999px;
@@ -23,11 +29,7 @@ header ul {
     margin-top: -15px;
     margin-right: -30px;
 }
-header ul li a{
-    list-style: none;
-    padding: 20px;
-    color: white    ;
-}
+
 div{
     margin-bottom: 100px;
     text-align: center;
@@ -40,10 +42,7 @@ footer ul li{
     background: #666;
     color: white;
     display: inline-block;
-}
-body{
-    background-color: #98ff98;
-}
+} 
 header section div{
     margin-bottom: 20px;
     background-color: white;
